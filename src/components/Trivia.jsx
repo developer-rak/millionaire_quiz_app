@@ -64,9 +64,10 @@ export default function Trivia({
             <div className={selectedAnswer === a ? className : "answer"} 
             onClick={() => handleClick(a)}
             >
-            {a.text}</div>
+               {a.text}
+            </div>
          ))}
       </div>
     </div>
-  )
+  );
 }
